@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="shortcut icon" type="image/png" href="icons/favicon.ico">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+	function display(cin) {
+		document.getElementById("result").value+=cin
+	}
+	function solve() {
+		x = document.getElementById("result").value
+		y = eval(x)
+		document.getElementById("result").value = y
+	}
+	function clr() {
+		document.getElementById("result").value=""
+	}
+	function  on(){
+		document.getElementById("result").style.background="#4CAF50"
+	}
+	function off(){
+		document.getElementById("result").style.background="black"
+		document.getElementById("result").value=""
+	}
+
+	$(document).keypress(function(event){
+    	if (event.keyCode == 48	){
+    		$("#zero").click();
+    	}else if (event.keyCode == 49){
+    		$("#one").click();
+    	}else if (event.keyCode == 50){
+    		$("#two").click();
+    	}else if (event.keyCode == 51){
+    		$("#three").click();
+    	}else if (event.keyCode == 52){
+    		$("#four").click();
+    	}else if (event.keyCode == 53){
+    		$("#five").click();
+    	}else if (event.keyCode == 54){
+    		$("#six").click();
+    	}else if (event.keyCode == 55){
+    		$("#seven").click();
+    	}else if (event.keyCode == 56){
+    		$("#eight").click();
+    	}else if (event.keyCode == 57){
+    		$("#nine").click();
+    	}else if (event.keyCode == 43){
+    		$("#plus").click();
+    	}else if (event.keyCode == 45){
+    		$("#minus").click();
+    	}else if (event.keyCode == 42){
+    		$("#power").click();
+    	}else if (event.keyCode == 47){
+    		$("#devide").click();
+    	}else if (event.keyCode == 61){
+    		$("#equal").click();
+    	}else if (event.keyCode == 99){
+    		$("#c").click();
+    	}	
+	});
+</script>
+</head>
+<body>
+<header>
+	<div class="menu">Calculator</div>
+</header>
+<div class="box">
+	<div class="plate">
+	<table border="1">
+		<th colspan="4"><input type="text" id="result" class="display"></th>
+		<tr>
+			<th><button id="seven" onclick="display('7')">7</button></th>
+			<th><button id="eight" onclick="display('8')">8</button></th>
+			<th><button id="nine" onclick="display('9')">9</button></th>
+			<th><button id="devide" onclick="display('/')">/</button></th>
+		</tr>
+		<tr>
+			<th><button id="four" onclick="display('4')">4</button></th>
+			<th><button id="five" onclick="display('5')">5</button></th>
+			<th><button id="six" onclick="display('6')">6</button></th>
+			<th><button id="power" onclick="display('*')">*</button></th>
+		</tr>
+		<tr>
+			<th><button id="one" onclick="display('1')">1</button></th>
+			<th><button id="two" onclick="display('2')">2</button></th>
+			<th><button id="three" onclick="display('3')">3</button></th>
+			<th><button id="minus" onclick="display('-')">-</button></th>
+		</tr>
+		<tr>
+			<th><button id="zero" onclick="display('0')">0</button></th>
+			<th><button id="equal" onclick="solve()">=</button></th>
+			<th><button id="c" onclick="clr()">C</button></th>
+			<th><button id="plus" onclick="display('+')">+</button></th>
+		</tr>
+	</table>
+	</div>
+</div>
+
+
+<button id="on" onclick="on()">ON</button>
+<button id="off" onclick="off()">OFF</button>
+
+
+
+</body>
+</html>
