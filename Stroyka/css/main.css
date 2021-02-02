@@ -13,7 +13,6 @@
     width: 100%;
     min-height: 484px;
     background: white url('../img/background.png') no-repeat center;
-    
 }
 .header__center,
 .content__center{
@@ -21,15 +20,12 @@
     margin: 0 auto;
     padding: 0 15px;
     border: 3px solid red;
-    
 }
 .navbar{
     width: 100%;
     min-height: 32px;
     width: 970px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
 }
 .navbar__flex{
     margin-top: 443px;
@@ -94,44 +90,109 @@
     margin: 0 auto;
     padding: 0 15px;
 }
-.content__central h3{
-    color: #00a0c9;
-}
 .sidebar{
     width: 280px;
 }
+.sidebar h3{
+    color: #00a0c9;
+}
 #all_news{
     color: #015967;
+    font-size: 13px;
+    text-decoration: underline;
 }
 .sidebar__links{
+    margin-top: 30px;
     font-weight: 400;
     font-size: 12px;
-    color: #00a7c0;
+}
+.sidebar__links p{
+    margin-bottom: 12px;
 }
 .sidebar__links a{
     text-decoration: underline;
     color: #00a7c0;
 }
-.info{
-    width: 590px;
+.zakaz{
+    margin-top: 35px;
+    font-size: 13px;
+    color: #04a7c0;
 }
-.info p{
+.zakaz h3{
+    margin-bottom: 17px;
+    font-size: 23px;
+    color: #1f6f7c;
+}
+.zakaz__btn{
+    background-color: #04aedb;
+    margin-top: 10px;
+    color: white;
+    font-size: 12px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+.zakaz__btn h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.info{
+    width: 593px;
+}
+.info h3{
+    color: #00a0c9;
+    margin-bottom: 10px;
+}
+.info__text{
+    padding: 17px 0;
     color: #797979;
     font-size: 13px;
     line-height: 24px;
+    border-top: 2px dashed #d5d5d5;
+    border-bottom: 2px dashed #d5d5d5;
+    margin-bottom: 17px;
 }
 .links__flex{
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
+    margin-top: 12px; 
+    border-bottom: 2px dashed #d5d5d5;
+    height: 160px;
     
 }
 .links{
-    
+    color: #11adc4;
 }
 .links a{
     font-size: 13px;
     color: #11adc4;
     text-decoration: underline;
-    
 }
+/* projects */
+.projects{
+    width: 100%;
 
+}
+.projects__flex{
+    width: 970px;
+    margin: 0 auto;
+}
+.items_2{
+    width: 900px;
+    color: #6f6f6f;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.items_2 span{
+    color: #33b9cd;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.item_2 b{  
+    font-weight: 700;
+    color: black;
+}
