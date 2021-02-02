@@ -95,4 +95,5 @@
 .links{
     display: flex;
     justify-content: space-between;
+    color: #00a0c9;
 }
