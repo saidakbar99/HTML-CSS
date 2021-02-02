@@ -26,7 +26,6 @@
 .navbar{
     width: 100%;
     min-height: 32px;
-    
     width: 970px;
     margin: 0 auto;
     display: flex;
@@ -87,5 +86,13 @@
     font-family: 'Tahoma';
     color: #25b4dc;
     text-decoration: underline;
+}
+.content__central{
+    display: flex;
+    justify-content: space-between;
+}
 
+.links{
+    display: flex;
+    justify-content: space-between;
 }

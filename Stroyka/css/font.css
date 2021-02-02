@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @font-face{
     font-family: 'Myriad Pro';
     font-weight: 400;
@@ -19,25 +18,3 @@
     font-weight: 400;
     src: url('../fonts/ofont.ru_Tahoma.ttf') format('truetype');
 }
-=======
-@font-face{
-    font-family: 'Myriad Pro';
-    font-weight: 400;
-    src: url('../fonts/MyriadPro-Regular.ttf') format('truetype');
-}
-@font-face{
-    font-family: 'Myriad Pro';
-    font-weight: 600;
-    src: url('../fonts/MyriadPro-Semibold.ttf') format('truetype');
-}
-@font-face{
-    font-family: 'Myriad Pro';
-    font-weight: 700;
-    src: url('../fonts/MyriadPro-Bold.ttf') format('truetype');
-}
-@font-face{
-    font-family: 'Tahoma';
-    font-weight: 400;
-    src: url('../fonts/ofont.ru_Tahoma.ttf') format('truetype');
-}
->>>>>>> e9ee5ae0d5e6529124f33a297950aa81d2b075ad
