@@ -15,11 +15,12 @@
     background: white url('../img/background.png') no-repeat center;
 }
 .header__center,
-.content__center{
+.content__center,
+.footer__center{
+    min-height: 40px;
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    border: 3px solid red;
 }
 .navbar{
     width: 100%;
@@ -28,7 +29,7 @@
     margin: 0 auto;
 }
 .navbar__flex{
-    margin-top: 443px;
+    padding-top: 443px;
 }
 .navbar__list{
     display: flex;
@@ -95,6 +96,7 @@
 }
 .sidebar h3{
     color: #00a0c9;
+    letter-spacing: -1px;
 }
 #all_news{
     color: #015967;
@@ -122,6 +124,8 @@
     margin-bottom: 17px;
     font-size: 23px;
     color: #1f6f7c;
+    letter-spacing: -1.5px;
+
 }
 .zakaz__btn{
     background-color: #04aedb;
@@ -172,7 +176,15 @@
 /* projects */
 .projects{
     width: 100%;
-
+}
+.projects p{
+    font-size: 13px;
+    line-height: 24px;
+    width: 900px;
+    margin: 45px auto 0;
+    border-bottom: 1px dashed #d3d3d3;
+    padding-bottom: 55px;
+    color: #797979;
 }
 .projects__flex{
     width: 970px;
@@ -195,4 +207,39 @@
 .item_2 b{  
     font-weight: 700;
     color: black;
+}
+.menu{
+    width: 970px;
+    margin: 0 auto;
+}
+.menu__list{
+    width: 680px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu__list a{
+    color: #00a7c0;
+    font-style: 12px;
+}
+.info_box{
+    color: #959898;
+    font-family: 'Tahoma';
+    font-size: 12px;
+}
+.info_box a{
+    color: #33b9cd;
+    text-decoration: underline;
+}
+.contacts{
+    width: 970px;
+    margin: 50px auto 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts h3{
+    font-size: 22px;
+    color: #33b9cd;
+}
+.info_box b{
+    font-weight: 700;
 }
