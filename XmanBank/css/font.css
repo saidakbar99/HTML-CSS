@@ -1,0 +1,15 @@
+@font-face{
+    font-family: 'Helvetica';
+    font-weight: 400;
+    src: url('../fonts/HelveticaRegular.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'Helvetica';
+    font-weight: 700;
+    src: url('../fonts/Helvetica-Bold.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'Bebas';
+    font-weight: 400;
+    src: url('../fonts/BebasNeue-Regular.ttf') format('truetype');
+}

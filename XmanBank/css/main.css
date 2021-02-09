@@ -1,0 +1,72 @@
+@import 'font.css';
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Bebas';
+    font-weight: 400;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    background: url('../img/background_all.jpg');
+    
+}
+.header__center{
+    background-color: #d8d8d9;
+    width: 1025px;
+    margin: 0 auto;
+    padding: 0 15px;
+    border: 3px solid red;
+    min-height: 50px;
+}
+.logo__flex{
+    display: flex;
+    align-items: center;
+}
+.top_nav{
+    display: flex;
+    justify-content: space-between;
+}
+.top_nav p{
+    font-size: 42px;
+    color: #3f3f3f;
+}
+.top_nav span{
+    color: #c42d21;
+}
+.top_nav sub{
+    margin-top: 40x;
+}
+.top_nav sub a{
+    color: #595959;
+    font-family: 'Helvetica';
+    font-size: 14px;
+    font-weight: 400;
+}
+.top_nav sub a:hover{
+    color: #c42d21;
+}
+.menu__list{
+    display: flex;
+    margin-top: 13px;
+}
+.menu__list a{
+    font-family: 'Helvetica';
+    font-weight: 400;
+    color: #ececec;
+    padding: 10px 20px;
+    background-color: #c42d21;
+}
+.menu__list a:hover{
+    background-color: #323232;
+}
+.menu__list li p{
+    font-size: 18px;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    margin-left: 130px;
+    padding: 10px 10px 10px 0;
+    background-color: #393939;
+}
