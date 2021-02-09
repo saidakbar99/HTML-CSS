@@ -13,3 +13,8 @@
     font-weight: 400;
     src: url('../fonts/BebasNeue-Regular.ttf') format('truetype');
 }
+@font-face{
+    font-family: 'Sansus Webissimo';
+    font-weight: 400;
+    src: url('../fonts/8265.ttf') format('truetype');
+}
