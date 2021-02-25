@@ -94,9 +94,6 @@
     padding-top: 13px;
     width: 959px;
 }
-.login{
-
-}
 .info{
     display: flex;
     min-height: 232px;
@@ -150,4 +147,7 @@
     font-family: 'Bebas';
     font-weight: 400;
     height: 62px;
+}
+.footer h3{
+    padding-top: 13px;
 }
