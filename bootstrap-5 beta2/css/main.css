@@ -1,0 +1,15 @@
+.container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
+.container-xxl,
+.container-fluid{
+    border: 1px solid black;
+    background: gray;
+    margin-top: 40px;
+}
+.box{
+    border: 1px solid red;
+    background: burlywood;
+}

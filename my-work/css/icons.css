@@ -1,0 +1,6 @@
+.icon-phone::before{content: '\f87b'; font-weight: 300;}
+.icon-close::before{content: '\f00d'; font-weight: 300;}
+.icon-sort::before{content: '\f0de'; font-weight: 900;}
+.icon-html::before{content: '\f13b'; font-weight: 400;}
+.icon-css::before{content: '\f38b'; font-weight: 400;}
+.icon-bootstrap::before{content: '\f836'; font-weight: 400;}
