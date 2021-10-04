@@ -1,2 +1,2 @@
-# dblS
-Верстка сайтов и не только
+# Pet projects
+some of my pet project (HTML/CSS)
